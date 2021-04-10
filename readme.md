@@ -1,8 +1,8 @@
 # Project Overview
 
-**PROJECT NAME:** dfadfadfsdfadf
+**PROJECT NAME:** Portfolio Project
 
-**PROJECT AUTHOR:** lkjlkjljlkadfsd
+**PROJECT AUTHOR:** Luis Armendariz 
 
 ## Project Schedule
 
@@ -22,11 +22,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+My project will be a portfolio website that will in the future display more projects 
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+https://spreadsheets.google.com/feeds/list/1LOxg6MjHUMYNwWfQqaWCeOrgo-bxsUYgGm-BtigFJTg/1/public/full?alt=json
 
 ## Portfolio I want to Emulate
 
@@ -34,9 +34,9 @@ Search and compare at least 3 profile web sites.  Record your findings in the ta
 
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/)| landing page animation
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
+| [denisechandler.com](http://www.denisechandler.com/)| images carousel at the top of the page 
+|[brandoncantello.com](https://brandoncantello.com) | clicking on the menu options "rolls" the page up|
+| [stereocreative.com](https://stereocreative.com/) |  hovering over image it pops image out 
 
 ---
 
@@ -71,10 +71,12 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP (examples)
 
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+-Use semantic markup for HTML and CSS, adhering to best practices.
+-Use CSS GRID to create a multi-column layout
+-Use Flexbox for content
+-Must be mobile mobile first, then tablet and desktop responsive
+-Must pull in projects via API call from google sheet
+-Be deployed and accessible online either via Github Pages or Surge.
 
 #### PostMVP 
 
