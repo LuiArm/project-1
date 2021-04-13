@@ -1,10 +1,26 @@
 body {
     background-color: black;
 }
+hr {
+    border-style: none;
+    border-color:white ;
+    border-top-style: dotted;
+    border-width: 5px;
+}
+
 .about, .projects, .contact {
-    background-color: black;
+    background-color:;
     color: white;
     font-family: 'Life Savers', cursive;
     text-align: center;
 }
 
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    display: flex;
+    color:white;
+}
