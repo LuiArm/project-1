@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+}
+.about, .projects, .contact {
+    background-color: black;
+    color: white;
+    font-family: 'Life Savers', cursive;
+    text-align: center;
+}
+

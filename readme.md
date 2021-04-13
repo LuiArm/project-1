@@ -12,12 +12,12 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete
+|Day 1| Project Description / Core Application Structure | Incomplete
+|Day 2| CSS Grid / Flex /  | Incomplete
+|Day 3| Responsive Design | Incomplete
+|Day 4| API and deployed | Incomplete
+|Day 5| Present | Incomplete
+
 
 
 ## Project Description
@@ -26,7 +26,7 @@ My project will be a portfolio website that will in the future display more proj
 
 ## Google Sheet
 
-https://spreadsheets.google.com/feeds/list/1LOxg6MjHUMYNwWfQqaWCeOrgo-bxsUYgGm-BtigFJTg/1/public/full?alt=json
+ (https://spreadsheets.google.com/feeds/list/1LOxg6MjHUMYNwWfQqaWCeOrgo-bxsUYgGm-BtigFJTg/1/public/full?alt=json)
 
 ## Portfolio I want to Emulate
 
@@ -34,7 +34,7 @@ Search and compare at least 3 profile web sites.  Record your findings in the ta
 
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/)| images carousel at the top of the page 
+| [seanhalpin.design](http://www.seanhalpin.design/)| colorful lettering 
 |[brandoncantello.com](https://brandoncantello.com) | clicking on the menu options "rolls" the page up|
 | [stereocreative.com](https://stereocreative.com/) |  hovering over image it pops image out 
 
@@ -44,8 +44,9 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://imgur.com/a/Qa7d6g6)
+- [Tablet](https://imgur.com/a/hucF0Mu)
+- [Desktop](https://imgur.com/a/hucF0Mu)
 
 Wireframing Resources:
 
@@ -55,7 +56,7 @@ Wireframing Resources:
 
 ## Time/Priority Matrix 
 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+[Link](https://imgur.com/a/ijRdpNz)
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 
@@ -71,16 +72,18 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP (examples)
 
--Use semantic markup for HTML and CSS, adhering to best practices.
--Use CSS GRID to create a multi-column layout
--Use Flexbox for content
--Must be mobile mobile first, then tablet and desktop responsive
--Must pull in projects via API call from google sheet
--Be deployed and accessible online either via Github Pages or Surge.
+- Use semantic markup for HTML and CSS, adhering to best practices.
+- Use CSS GRID to create a multi-column layout
+- Use Flexbox for content
+- Must be mobile mobile first, then tablet and desktop responsive
+- Must pull in projects via API call from google sheet
+- Be deployed and accessible online either via Github Pages or Surge.
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Carousel 
+- Bootstrap
+- Webcomponents
 
 ## Functional Components
 
@@ -91,29 +94,25 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Hamburger | M | 3hr | hr |
+| Semantic markup for HTML | H | 3hr | hr |
+| CSS Grid | H | 3hr | hr |  
+| Flex  | H | 3hr|  hr | 
+| Responsive Design | M | 3hr | hr|
+| Working with API | M | 2hrs|  hr | 
+| Deployed and accessible | M | 1.5hr | hr | hr |
+| Total | H | 18.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Carousel | L | 5hr | -hr | hr |
+| Webcomponents | L | 4hr | -hr | hr |
+| Bootstrap | H | 5hr | hr |
+| Total | L-M | 14hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ (https://www.google.com/search?q=google+fonts&oq=google+fonts&aqs=chrome..69i57j0l3j0i433j69i60l3.3588j0j7&sourceid=chrome&ie=UTF-8) Google fonts will be used to add fonts
 
 ## Code Snippet
 
