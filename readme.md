@@ -94,12 +94,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | M | 3hr | hr |
-| Semantic markup for HTML | H | 3hr | hr |
+| Hamburger | M | 3hr | 3.5hr |
+| Semantic markup for HTML | H | 3hr | 4hr |
 | CSS Grid | H | 3hr | hr |  
-| Flex  | H | 3hr|  hr | 
+| Flex  | H | 3hr|  4.5 hr | 
 | Responsive Design | M | 3hr | hr|
-| Working with API | M | 2hrs|  hr | 
+| Working with API | M | 2hrs|  6+hr | 
 | Deployed and accessible | M | 1.5hr | hr | hr |
 | Total | H | 18.5hrs| hrs |
 

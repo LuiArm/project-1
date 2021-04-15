@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background-color:#212121;
+    font-weight:bolder;
 }
 hr {
     border-style: none;
@@ -9,8 +10,8 @@ hr {
 }
 
 .about, .projects, .contact {
-    background-color:;
-    color: white;
+    background-color: black;
+    color: #FFFFFF;
     font-family: 'Life Savers', cursive;
     text-align: center;
 }
@@ -18,9 +19,40 @@ hr {
 .form {
     display: flex;
     justify-content: center;
+    background-color: #FCFEFE;
 }
 
 label{
     display: flex;
     color:white;
+}
+
+header {
+    background-color:#c4c241 ;
+}
+
+.navbar-brand {
+    font-family: 'Life Savers', cursive;
+}
+
+.about {
+    color: #fff;
+    background: linear-gradient(
+271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image {
+    max-width:300px;
+}
+
+section {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: "90%";
+    margin: 10px auto;
+    background-color: #FEFAEC;
+
 }
