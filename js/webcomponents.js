@@ -12,22 +12,21 @@
            const giturl = this.getAttribute("giturl")
            const liveurl = this.getAttribute("liveurl")
            const image = this.getAttribute("image")
+           const project = this.getAttribute("project")
 
-        //    console.log(image, giturl, liveurl, description)
+           console.log(project)
 
            this.innerHTML = `
-           <sl-card>
+           <sl-card class="cards">
 
-           <h1>${description}</h1>
+           <h1 slot="header">${project}</h1>
            <img class="image" src=${image} slot="image">
            <sl-button-group>
            <a href=${giturl}><sl-button>Git</sl-button></a>
            <a href=${liveurl}><sl-button>Live</sl-button></a>
 
            </sl-button-group>
-         `
-
-           
+         `     
      }
 }
 

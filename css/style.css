@@ -1,16 +1,36 @@
 body {
-    background-color:#212121;
+    background-color: black;
     font-weight:bolder;
-}
-hr {
-    border-style: none;
-    border-color:white ;
-    border-top-style: dotted;
-    border-width: 5px;
+    position: relative;
+      
 }
 
-.about, .projects, .contact {
+#top {
+    background-color: #FEFAEC;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Poiret One';
+}
+
+
+.projects {
     background-color: black;
+    color: #FFFFFF;
+    font-family: 'Life Savers', cursive;
+    text-align: center;
+}
+
+.chat {
+    background-color: #black;
     color: #FFFFFF;
     font-family: 'Life Savers', cursive;
     text-align: center;
@@ -19,7 +39,7 @@ hr {
 .form {
     display: flex;
     justify-content: center;
-    background-color: #FCFEFE;
+   
 }
 
 label{
@@ -27,32 +47,56 @@ label{
     color:white;
 }
 
-header {
-    background-color:#c4c241 ;
-}
+
 
 .navbar-brand {
     font-family: 'Life Savers', cursive;
+    color:black;
+    font-size: 33px;
+    font-weight: 900;
 }
 
-.about {
+.nav-link {
+    font-family: 'Life Savers', cursive;
+    color:black;
+    font-size: 20px;
+}
+
+.cards {
+    margin: 15px;
+    padding: 20px;
+}
+
+
+#hello {
     color: #fff;
     background: linear-gradient(
 271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Life Savers', cursive;
+    text-align: center;
+    margin: 18px;
 }
 
 .image {
-    max-width:300px;
+    max-width: 325px;
 }
 
 section {
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: "90%";
+    width: 100%;
     margin: 10px auto;
     background-color: #FEFAEC;
+}
 
+::part(body) {
+    display:flex;
+    justify-content: center;
+}
+
+sl-button::part(base){
+    margin: 5px;
 }
