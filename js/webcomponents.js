@@ -19,7 +19,8 @@
            this.innerHTML = `
            <sl-card class="cards">
 
-           <h1 slot="header">${project}</h1>
+           <h1 slot="header">${this.getAttribute("project")
+        }</h1>
            <img class="image" src=${image} slot="image">
            <sl-button-group>
            <a href=${giturl}><sl-button>Git</sl-button></a>
@@ -40,3 +41,5 @@ customElements.define("my-card", MyCard)
 
 
 
+// <a href=${this.getAttribute("giturl")}><sl-button>Git</sl-button></a>
+// <a href=${this.getAttribute("liveurl")}><sl-button>Live</sl-button></a>

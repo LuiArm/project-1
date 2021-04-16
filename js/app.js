@@ -24,16 +24,14 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1LOxg6MjHUMYNwWfQqaWCeOrgo-bx
     const final = projects.map((project) => {
         console.log(project)
         return `
-        <my-card project="${project.project}" git=${project.giturl} live=${project.liveurl} image=${project.image}></my-card>`
+        <my-card project="${project.project}" giturl="${project.giturl}" liveurl="${project.liveurl}" image=${project.image}></my-card>`
     })
 
     const $section = $('section')
 
     $section.html(final.join(""))
 
-    
-
-
+   
 
 
 

@@ -9,8 +9,14 @@ body {
     background-color: #FEFAEC;
 }
 
-h1 {
+#aboutMe {
     color:white;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+h1 {
+    color: black;
     text-align: center;
     font-family: 'Noto Serif', serif;
 }
