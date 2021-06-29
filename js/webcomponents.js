@@ -14,13 +14,10 @@
            const image = this.getAttribute("image")
            const project = this.getAttribute("project")
 
-           console.log(project)
-
            this.innerHTML = `
            <sl-card class="cards">
 
-           <h1 slot="header">${this.getAttribute("project")
-        }</h1>
+           <h1 slot="header">${this.getAttribute("project")}</h1>
            <img class="image" src=${image} slot="image">
            <sl-button-group>
            <a href=${giturl}><sl-button>Git</sl-button></a>
